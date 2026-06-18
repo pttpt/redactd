@@ -1,0 +1,31 @@
+redactd — PDF Redaction by Mouse Selection.
+
+Redacta información sensible de documentos PDF de forma local, rápida y segura. 
+Tu información nunca abandona tu dispositivo.
+
+Uso:
+
+1. [Open PDF]		– Carga el documento a procesar.
+2. [Arrastrar]		– Selecciona el área a censurar con el mouse.
+3. [Clic]			– Haz clic sobre un bloque marcado para eliminarlo.
+4. [Ctrl + Z]		– Deshace la última selección realizada.
+5. [Redact]		– Procesa y exporta el archivo final.
+6. [Done ✓]		– Haz clic para abrir la carpeta del archivo guardado y salir.
+
+¿Qué hace?:
+
+- Redacción Nativa: Aplica marcas de redacción definitivas mediante PyMuPDF.
+- Aplanado de Seguridad: Re-renderiza cada página como imagen (150 DPI) para eliminar capas de texto subyacentes.
+- Limpieza total: Elimina todos los metadatos (Autor, Software, Fechas, etc.).
+- Preservación: El archivo original permanece intacto; el resultado se guarda como "[nombre]_redactd.pdf".
+
+Seguridad y Privacidad:
+
+- Privacidad Local: Todo el procesamiento ocurre en tu máquina. No hay servidores, ni subidas a la nube, ni telemetría.
+- Protección garantizada: Al aplanar el PDF, el texto bajo los bloques negros es físicamente inaccesible; no se puede copiar, extraer ni revelar mediante software de edición.
+
+Atajos:
+
+- Ctrl + Z : Deshacer última selección.
+- Esc      : Salir de la aplicación.
+- F11      : Alternar pantalla completa.
